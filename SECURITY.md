@@ -6,7 +6,7 @@ Security fixes are prioritized for the latest released protocol and SDK versions
 
 ## Reporting a vulnerability
 
-Please report vulnerabilities privately to `security@gustycube.com`.
+Please report vulnerabilities privately to `gc@gustycube.xyz`.
 
 Include:
 

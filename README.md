@@ -328,7 +328,7 @@ docs/         Normative spec, threat model, trust model, governance
 > [!CAUTION]
 > Do not open public issues for vulnerability reports. Follow the private disclosure process.
 
-Report vulnerabilities to `security@gustycube.com`. See [SECURITY.md](SECURITY.md) and [docs/SECURITY_DISCLOSURE.md](docs/SECURITY_DISCLOSURE.md) for response targets and disclosure policy.
+Report vulnerabilities to `gc@gustycube.xyz`. See [SECURITY.md](SECURITY.md) and [docs/SECURITY_DISCLOSURE.md](docs/SECURITY_DISCLOSURE.md) for response targets and disclosure policy.
 
 ---
 
