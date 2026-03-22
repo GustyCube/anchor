@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignyte-solutions/ignyte-anchor-protocol/core/v2"
+	"github.com/GustyCube/anchor/core/v2"
 )
 
 func TestWindowReplayCacheRejectsReplayEvenWithStaleActionTimestamp(t *testing.T) {

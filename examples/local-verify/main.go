@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	anchorcrypto "github.com/ignyte-solutions/ignyte-anchor-protocol/core/crypto"
-	protocolgo "github.com/ignyte-solutions/ignyte-anchor-protocol/sdk/go"
+	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
+	protocolgo "github.com/GustyCube/anchor/sdk/go"
 )
 
 func main() {

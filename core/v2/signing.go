@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ignyte-solutions/ignyte-anchor-protocol/core/canonical"
-	anchorcrypto "github.com/ignyte-solutions/ignyte-anchor-protocol/core/crypto"
+	"github.com/GustyCube/anchor/core/canonical"
+	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
 )
 
 const timestampFormat = "2006-01-02T15:04:05.000000000Z07:00"

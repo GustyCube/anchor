@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignyte-solutions/ignyte-anchor-protocol/core/canonical"
-	anchorcrypto "github.com/ignyte-solutions/ignyte-anchor-protocol/core/crypto"
+	"github.com/GustyCube/anchor/core/canonical"
+	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
 )
 
 var (

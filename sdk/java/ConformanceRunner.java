@@ -1,16 +1,16 @@
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.ActionEnvelope;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.Capability;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.ChallengePolicy;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.ConstraintEvidence;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.ConstraintSet;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.CryptoProvider;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.Delegation;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.IssuerKeyResolver;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.KeyResolutionResult;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.ReplayCache;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.VerificationResult;
-import com.ignyte.anchor.protocol.sdk.IgnyteAnchorLocalVerifier.VerifyRequest;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.ActionEnvelope;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.Capability;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.ChallengePolicy;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.ConstraintEvidence;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.ConstraintSet;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.CryptoProvider;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.Delegation;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.IssuerKeyResolver;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.KeyResolutionResult;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.ReplayCache;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.VerificationResult;
+import com.gustycube.anchor.sdk.AnchorLocalVerifier.VerifyRequest;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ public final class ConformanceRunner {
     }
 
     private static VerificationResult runScenario(String scenario) {
-        IgnyteAnchorLocalVerifier verifier = new IgnyteAnchorLocalVerifier();
+        AnchorLocalVerifier verifier = new AnchorLocalVerifier();
         VerifyRequest request = new VerifyRequest();
         request.capability = baseCapability();
         request.action = baseAction();

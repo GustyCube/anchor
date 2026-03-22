@@ -1,4 +1,4 @@
-export class IgnyteAnchorProtocolHttpClient {
+export class AnchorProtocolHttpClient {
   private readonly baseUrl: string;
   private readonly fetchFn: typeof fetch;
 

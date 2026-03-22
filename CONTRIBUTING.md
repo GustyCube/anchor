@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for contributing to Ignyte Anchor Protocol.
+Thanks for contributing to Anchor Protocol.
 
 ## Ground rules
 

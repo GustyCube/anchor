@@ -3,7 +3,7 @@ package protocolgo
 import (
 	"testing"
 
-	"github.com/ignyte-solutions/ignyte-anchor-protocol/core/v2"
+	"github.com/GustyCube/anchor/core/v2"
 )
 
 func TestOfflineVerifyRequiresReferenceTime(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	anchorcrypto "github.com/ignyte-solutions/ignyte-anchor-protocol/core/crypto"
-	"github.com/ignyte-solutions/ignyte-anchor-protocol/core/v2"
+	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
+	"github.com/GustyCube/anchor/core/v2"
 )
 
 func TestSignAndVerifyTrustBundle(t *testing.T) {

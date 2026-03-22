@@ -13,7 +13,7 @@ from verifier import (
     ConstraintSet,
     CryptoProvider,
     Delegation,
-    IgnyteAnchorOfflineVerifier,
+    AnchorOfflineVerifier,
     IssuerKeyResolver,
     KeyResolutionResult,
     ReplayCache,
@@ -112,7 +112,7 @@ def _base_action() -> ActionEnvelope:
 
 
 def _run_scenario(name: str) -> dict[str, object]:
-    verifier = IgnyteAnchorOfflineVerifier()
+    verifier = AnchorOfflineVerifier()
     request = VerifyRequest(
         capability=_base_capability(),
         action=_base_action(),
