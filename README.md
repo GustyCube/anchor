@@ -1,11 +1,11 @@
-# Ignyte Anchor Protocol
+# Anchor Protocol
 
-[![CI](https://github.com/Ignyte-Solutions/anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/Ignyte-Solutions/anchor/actions/workflows/ci.yml)
+[![CI](https://github.com/GustyCube/anchor/actions/workflows/ci.yml/badge.svg)](https://github.com/GustyCube/anchor/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Protocol Version](https://img.shields.io/badge/protocol-v2-0ea5e9.svg)](spec/)
 [![Go Version](https://img.shields.io/badge/go-1.24.6-00ADD8.svg)](go.mod)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ignyte-solutions/ignyte-anchor-protocol)](https://goreportcard.com/report/github.com/ignyte-solutions/ignyte-anchor-protocol)
-[![Go Reference](https://pkg.go.dev/badge/github.com/ignyte-solutions/ignyte-anchor-protocol.svg)](https://pkg.go.dev/github.com/ignyte-solutions/ignyte-anchor-protocol)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gustycube/anchor)](https://goreportcard.com/report/github.com/gustycube/anchor)
+[![Go Reference](https://pkg.go.dev/badge/github.com/gustycube/anchor.svg)](https://pkg.go.dev/github.com/gustycube/anchor)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/ignyte-anchor/badge)](https://bestpractices.coreinfrastructure.org/projects/ignyte-anchor)
 [![Conformance](https://img.shields.io/badge/conformance-vectors%20passing-22c55e.svg)](conformance/)
 [![SDK Parity](https://img.shields.io/badge/sdk%20parity-Go%20%7C%20TS%20%7C%20Python%20%7C%20Java-6366f1.svg)](docs/COMPATIBILITY_MATRIX.md)
@@ -98,7 +98,7 @@ The verifier runs 14 deterministic checks -- signature validity, validity window
 **Prerequisites:** Go 1.24.6+, Git
 
 ```bash
-git clone https://github.com/Ignyte-Solutions/anchor.git
+git clone https://github.com/GustyCube/anchor.git
 cd anchor
 
 # Run all protocol and conformance tests
@@ -115,8 +115,8 @@ go run ./examples/trust-bundle-fallback
 
 ```go
 import (
-    anchorcrypto "github.com/ignyte-solutions/ignyte-anchor-protocol/core/crypto"
-    protocolgo "github.com/ignyte-solutions/ignyte-anchor-protocol/sdk/go"
+    anchorcrypto "github.com/GustyCube/anchor/core/crypto"
+    protocolgo "github.com/GustyCube/anchor/sdk/go"
 )
 
 // Build and sign a capability (issuer side)
