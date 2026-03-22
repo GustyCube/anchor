@@ -1,3 +1,3 @@
-module github.com/ignyte-solutions/ignyte-anchor-protocol
+module github.com/GustyCube/anchor
 
 go 1.24.6

@@ -1,4 +1,4 @@
-package com.ignyte.anchor.protocol.sdk;
+package com.gustycube.anchor.sdk;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-public final class IgnyteAnchorLocalVerifier {
+public final class AnchorLocalVerifier {
     public static final class ReasonCodes {
         public static final String REFERENCE_TIME_MISSING = "ERR_REFERENCE_TIME_MISSING";
         public static final String ISSUER_MISMATCH = "ERR_ISSUER_MISMATCH";

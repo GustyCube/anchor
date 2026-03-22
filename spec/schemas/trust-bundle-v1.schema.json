@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://protocol.ignyteanchor.com/schemas/trust-bundle-v1.schema.json",
+  "$id": "https://protocol.anchor.gustycube.com/schemas/trust-bundle-v1.schema.json",
   "title": "TrustBundle",
   "type": "object",
   "required": ["bundle_id", "issued_at", "expires_at", "issuers", "signature", "signer_public_key_kid"],

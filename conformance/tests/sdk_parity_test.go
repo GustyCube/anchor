@@ -59,7 +59,7 @@ func TestReasonCodeRegistryParityAcrossSDKSources(t *testing.T) {
 		observed["python"] = append(observed["python"], m[1])
 	}
 
-	javaContent := readFile(t, filepath.Join(root, "sdk", "java", "IgnyteAnchorLocalVerifier.java"))
+	javaContent := readFile(t, filepath.Join(root, "sdk", "java", "AnchorLocalVerifier.java"))
 	javaClassRe := regexp.MustCompile(`(?s)public static final class ReasonCodes\s*\{(.+?)private ReasonCodes\(\) \{\}`)
 	javaMatch := javaClassRe.FindStringSubmatch(javaContent)
 	if len(javaMatch) != 2 {
@@ -234,7 +234,7 @@ func buildJavaRunner(t *testing.T, root string) string {
 		"javac",
 		"-d",
 		outputDir,
-		filepath.Join(root, "sdk", "java", "IgnyteAnchorLocalVerifier.java"),
+		filepath.Join(root, "sdk", "java", "AnchorLocalVerifier.java"),
 		filepath.Join(root, "sdk", "java", "ConformanceRunner.java"),
 	)
 	cmd.Dir = root

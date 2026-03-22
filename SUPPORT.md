@@ -11,4 +11,4 @@ Start with `docs/` and `examples/` for protocol and integration guidance.
 
 ## Security issues
 
-For vulnerabilities, follow `SECURITY.md` and email `security@ignyte.solutions`.
+For vulnerabilities, follow `SECURITY.md` and email `security@gustycube.com`.

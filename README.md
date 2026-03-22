@@ -6,7 +6,7 @@
 [![Go Version](https://img.shields.io/badge/go-1.24.6-00ADD8.svg)](go.mod)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gustycube/anchor)](https://goreportcard.com/report/github.com/gustycube/anchor)
 [![Go Reference](https://pkg.go.dev/badge/github.com/gustycube/anchor.svg)](https://pkg.go.dev/github.com/gustycube/anchor)
-[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/ignyte-anchor/badge)](https://bestpractices.coreinfrastructure.org/projects/ignyte-anchor)
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/gustycube-anchor/badge)](https://bestpractices.coreinfrastructure.org/projects/gustycube-anchor)
 [![Conformance](https://img.shields.io/badge/conformance-vectors%20passing-22c55e.svg)](conformance/)
 [![SDK Parity](https://img.shields.io/badge/sdk%20parity-Go%20%7C%20TS%20%7C%20Python%20%7C%20Java-6366f1.svg)](docs/COMPATIBILITY_MATRIX.md)
 [![Security Policy](https://img.shields.io/badge/security-policy-16a34a.svg)](SECURITY.md)
@@ -197,9 +197,9 @@ All four SDKs implement the full offline verifier surface with pluggable crypto 
 <summary>TypeScript example</summary>
 
 ```typescript
-import { IgnyteAnchorOfflineVerifier } from "./sdk/typescript/verifier.ts";
+import { AnchorOfflineVerifier } from "./sdk/typescript/verifier.ts";
 
-const verifier = new IgnyteAnchorOfflineVerifier();
+const verifier = new AnchorOfflineVerifier();
 const result = verifier.verify({
   capability,
   action,
@@ -219,9 +219,9 @@ const result = verifier.verify({
 <summary>Python example</summary>
 
 ```python
-from sdk.python.verifier import IgnyteAnchorOfflineVerifier, VerifyRequest
+from sdk.python.verifier import AnchorOfflineVerifier, VerifyRequest
 
-verifier = IgnyteAnchorOfflineVerifier()
+verifier = AnchorOfflineVerifier()
 result = verifier.verify(VerifyRequest(
     capability=capability,
     action=action,
@@ -241,7 +241,7 @@ result = verifier.verify(VerifyRequest(
 <summary>Java example</summary>
 
 ```java
-IgnyteAnchorLocalVerifier verifier = new IgnyteAnchorLocalVerifier();
+AnchorLocalVerifier verifier = new AnchorLocalVerifier();
 VerifyRequest request = new VerifyRequest();
 request.capability = capability;
 request.action = action;
@@ -328,7 +328,7 @@ docs/         Normative spec, threat model, trust model, governance
 > [!CAUTION]
 > Do not open public issues for vulnerability reports. Follow the private disclosure process.
 
-Report vulnerabilities to `security@ignyte.solutions`. See [SECURITY.md](SECURITY.md) and [docs/SECURITY_DISCLOSURE.md](docs/SECURITY_DISCLOSURE.md) for response targets and disclosure policy.
+Report vulnerabilities to `security@gustycube.com`. See [SECURITY.md](SECURITY.md) and [docs/SECURITY_DISCLOSURE.md](docs/SECURITY_DISCLOSURE.md) for response targets and disclosure policy.
 
 ---
 

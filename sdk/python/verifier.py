@@ -162,7 +162,7 @@ class VerifyRequest:
     key_resolver: Optional[IssuerKeyResolver] = None
 
 
-class IgnyteAnchorOfflineVerifier:
+class AnchorOfflineVerifier:
     def verify(self, req: VerifyRequest) -> VerificationResult:
         result = VerificationResult(policy_hash_seen=req.capability.policy_hash)
 

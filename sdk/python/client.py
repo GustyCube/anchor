@@ -7,7 +7,7 @@ import requests
 
 
 @dataclass(frozen=True)
-class IgnyteAnchorProtocolHttpClient:
+class AnchorProtocolHttpClient:
     base_url: str
     session: requests.Session
 

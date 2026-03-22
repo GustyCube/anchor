@@ -28,4 +28,4 @@ This code of conduct applies in repository issues, pull requests, discussions, a
 
 ## Reporting
 
-Report conduct issues to `support@ignyte.solutions`. Reports are reviewed confidentially.
+Report conduct issues to `support@gustycube.com`. Reports are reviewed confidentially.

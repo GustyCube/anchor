@@ -1,4 +1,4 @@
-package com.ignyte.anchor.protocol.sdk;
+package com.gustycube.anchor.sdk;
 
 import java.io.IOException;
 import java.net.URI;
@@ -7,11 +7,11 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
 
-public final class IgnyteAnchorProtocolHttpClient {
+public final class AnchorProtocolHttpClient {
     private final String baseUrl;
     private final HttpClient httpClient;
 
-    public IgnyteAnchorProtocolHttpClient(String baseUrl, HttpClient httpClient) {
+    public AnchorProtocolHttpClient(String baseUrl, HttpClient httpClient) {
         if (baseUrl == null || baseUrl.trim().isEmpty()) {
             throw new IllegalArgumentException("baseUrl is required");
         }
@@ -22,9 +22,9 @@ public final class IgnyteAnchorProtocolHttpClient {
         this.httpClient = httpClient;
     }
 
-    public static IgnyteAnchorProtocolHttpClient withDefaultHttpClient(String baseUrl) {
+    public static AnchorProtocolHttpClient withDefaultHttpClient(String baseUrl) {
         HttpClient client = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(30)).build();
-        return new IgnyteAnchorProtocolHttpClient(baseUrl, client);
+        return new AnchorProtocolHttpClient(baseUrl, client);
     }
 
     public String postJson(String path, String payloadJson, int expectedStatus) throws IOException, InterruptedException {

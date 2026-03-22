@@ -1,4 +1,4 @@
-import { IgnyteAnchorOfflineVerifier } from "./verifier.ts";
+import { AnchorOfflineVerifier } from "./verifier.ts";
 import type {
   ActionEnvelope,
   Capability,
@@ -124,7 +124,7 @@ function parseScenarioArg(): string {
 }
 
 function runScenario(name: string): VerificationResult {
-  const verifier = new IgnyteAnchorOfflineVerifier();
+  const verifier = new AnchorOfflineVerifier();
   const capability = baseCapability();
   const action = baseAction();
   const replayCache = new MemoryReplayCache();

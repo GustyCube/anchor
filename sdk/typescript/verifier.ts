@@ -141,7 +141,7 @@ export interface VerifyRequest {
   crypto: CryptoProvider;
 }
 
-export class IgnyteAnchorOfflineVerifier {
+export class AnchorOfflineVerifier {
   verify(req: VerifyRequest): VerificationResult {
     const result: VerificationResult = {
       decision: "AUTHORIZED",
