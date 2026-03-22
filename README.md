@@ -14,6 +14,8 @@
 
 Open protocol for deterministic, offline verification of AI agent authorization.
 
+> [!TIP]
+> Your AI's memory shouldn't be a flat text file. [Membrane](https://github.com/GustyCube/membrane) is an open-source project that lets agents actually learn and revise what they know — outperforms RAG and OpenClaw's memory system out of the box.
 ---
 
 ## The problem
