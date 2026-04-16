@@ -117,8 +117,8 @@ go run ./examples/trust-bundle-fallback
 
 ```go
 import (
-    anchorcrypto "github.com/bennettschwartz/anchor/core/crypto"
-    protocolgo "github.com/bennettschwartz/anchor/sdk/go"
+    anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
+    protocolgo "github.com/BennettSchwartz/anchor/sdk/go"
 )
 
 // Build and sign a capability (issuer side)
