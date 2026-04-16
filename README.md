@@ -4,8 +4,8 @@
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Protocol Version](https://img.shields.io/badge/protocol-v2-0ea5e9.svg)](spec/)
 [![Go Version](https://img.shields.io/badge/go-1.24.6-00ADD8.svg)](go.mod)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bennettschwartz/anchor)](https://goreportcard.com/report/github.com/bennettschwartz/anchor)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bennettschwartz/anchor.svg)](https://pkg.go.dev/github.com/bennettschwartz/anchor)
+[![Go Report Card](https://goreportcard.com/badge/github.com/BennettSchwartz/anchor)](https://goreportcard.com/report/github.com/BennettSchwartz/anchor)
+[![Go Reference](https://pkg.go.dev/badge/github.com/BennettSchwartz/anchor.svg)](https://pkg.go.dev/github.com/BennettSchwartz/anchor)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/bennettschwartz-anchor/badge)](https://bestpractices.coreinfrastructure.org/projects/bennettschwartz-anchor)
 [![Conformance](https://img.shields.io/badge/conformance-vectors%20passing-22c55e.svg)](conformance/)
 [![SDK Parity](https://img.shields.io/badge/sdk%20parity-Go%20%7C%20TS%20%7C%20Python%20%7C%20Java-6366f1.svg)](docs/COMPATIBILITY_MATRIX.md)
@@ -117,8 +117,8 @@ go run ./examples/trust-bundle-fallback
 
 ```go
 import (
-    anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
-    protocolgo "github.com/BennettSchwartz/anchor/sdk/go"
+    anchorcrypto "github.com/bennettschwartz/anchor/core/crypto"
+    protocolgo "github.com/bennettschwartz/anchor/sdk/go"
 )
 
 // Build and sign a capability (issuer side)
