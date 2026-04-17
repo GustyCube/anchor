@@ -1,4 +1,4 @@
-package com.gustycube.anchor.sdk;
+package com.bennettschwartz.anchor.sdk;
 
 import java.io.IOException;
 import java.net.URI;

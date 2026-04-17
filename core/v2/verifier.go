@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
+	anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
 )
 
 type RevocationChecker interface {

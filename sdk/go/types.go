@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"time"
 
-	"github.com/GustyCube/anchor/core/v2"
+	"github.com/BennettSchwartz/anchor/core/v2"
 )
 
 // Version indicates the current protocol major version implemented by this SDK.

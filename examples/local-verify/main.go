@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
-	protocolgo "github.com/GustyCube/anchor/sdk/go"
+	anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
+	protocolgo "github.com/BennettSchwartz/anchor/sdk/go"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/GustyCube/anchor/core/canonical"
-	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
+	"github.com/BennettSchwartz/anchor/core/canonical"
+	anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
 )
 
 var (

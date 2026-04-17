@@ -3,7 +3,7 @@ package protocolgo
 import (
 	"testing"
 
-	"github.com/GustyCube/anchor/core/v2"
+	"github.com/BennettSchwartz/anchor/core/v2"
 )
 
 func TestOfflineVerifyRequiresReferenceTime(t *testing.T) {

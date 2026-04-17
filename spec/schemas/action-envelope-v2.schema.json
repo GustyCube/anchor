@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://protocol.anchor.gustycube.com/schemas/action-envelope-v2.schema.json",
+  "$id": "https://protocol.anchor.bennettschwartz.com/schemas/action-envelope-v2.schema.json",
   "title": "ActionEnvelopeV2",
   "type": "object",
   "required": [

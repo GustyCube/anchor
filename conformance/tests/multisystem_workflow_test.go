@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
-	"github.com/GustyCube/anchor/core/v2"
+	anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
+	"github.com/BennettSchwartz/anchor/core/v2"
 )
 
 type signedContext struct {
@@ -51,7 +51,7 @@ func TestAdvancedWorkflow_AllSystemsAuthorized(t *testing.T) {
 		AllowedActions: []string{"social:PublishPost"},
 		APIScope:       "social:publish",
 		Environment:    "prod",
-		ActionPayload:  `{"post_id":"post_2001","account_id":"gustycube-main","content":"release 2.2.0 live","visibility":"public"}`,
+		ActionPayload:  `{"post_id":"post_2001","account_id":"bennettschwartz-main","content":"release 2.2.0 live","visibility":"public"}`,
 		ResourceUsage:  map[string]int64{"social:posts": 1},
 		SpendUsage:     map[string]int64{"usd_cents": 1},
 		RateUsage:      map[string]int64{"requests_per_minute": 1},
@@ -150,7 +150,7 @@ func TestAdvancedWorkflow_IsolatedFailure(t *testing.T) {
 		AllowedActions: []string{"social:PublishPost"},
 		APIScope:       "social:publish",
 		Environment:    "prod",
-		ActionPayload:  `{"post_id":"post_bad","account_id":"gustycube-main","content":"this is a leak","visibility":"public"}`,
+		ActionPayload:  `{"post_id":"post_bad","account_id":"bennettschwartz-main","content":"this is a leak","visibility":"public"}`,
 		ResourceUsage:  map[string]int64{"social:posts": 1},
 		SpendUsage:     map[string]int64{"usd_cents": 1},
 		RateUsage:      map[string]int64{"requests_per_minute": 1},
@@ -202,7 +202,7 @@ func TestAdvancedWorkflow_CrossCapabilityMisuseRejected(t *testing.T) {
 		AllowedActions: []string{"bank:TransferFunds"},
 		APIScope:       "bank:payments",
 		Environment:    "prod",
-		ActionPayload:  `{"post_id":"bad_cross","account_id":"gustycube-main","content":"should fail","visibility":"public"}`,
+		ActionPayload:  `{"post_id":"bad_cross","account_id":"bennettschwartz-main","content":"should fail","visibility":"public"}`,
 		ResourceUsage:  map[string]int64{"bank:transfers": 1},
 		SpendUsage:     map[string]int64{"usd_cents": 100},
 		RateUsage:      map[string]int64{"requests_per_minute": 1},

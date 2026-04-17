@@ -1,3 +1,3 @@
-module github.com/GustyCube/anchor
+module github.com/BennettSchwartz/anchor
 
 go 1.24.6
