@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	anchorcrypto "github.com/GustyCube/anchor/core/crypto"
-	"github.com/GustyCube/anchor/core/v2"
+	anchorcrypto "github.com/BennettSchwartz/anchor/core/crypto"
+	"github.com/BennettSchwartz/anchor/core/v2"
 )
 
 func TestVerifyAuthorizedWithAudienceAndPolicyHash(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GustyCube/anchor/core/v2"
+	"github.com/BennettSchwartz/anchor/core/v2"
 )
 
 func TestWindowReplayCacheRejectsReplayEvenWithStaleActionTimestamp(t *testing.T) {
